@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: #e5e2e1;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Luxury Couture Typography Classes */
+.font-display-hero {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .font-display-hero {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-headline-lg {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .font-headline-lg {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0;
+  }
+}
+
+.font-headline-md {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.font-headline-sm {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.font-title-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.font-body-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+
+.font-body-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+
+.font-label-caps {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.22em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.font-label-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.14em;
+  font-weight: 400;
+}
+
+/* Luxury Color Helpers */
+.text-primary-gold {
+  color: #e6c180;
+}
+
+.bg-primary-gold {
+  background-color: #b8975a;
+}
+
+.border-primary-gold {
+  border-color: rgba(184, 151, 90, 0.35);
+}
+
+.bg-surface-charcoal {
+  background-color: #131313;
+}
+
+.bg-bone-ivory {
+  background-color: #F5F1EA;
+}
+
+/* Custom Scrollbar for Luxury Aesthetics */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353535;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8975a;
+}
